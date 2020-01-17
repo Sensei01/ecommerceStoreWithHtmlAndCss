@@ -1,11 +1,12 @@
 .product_gallery {
   margin: 0 auto;
-  width: 1000px;
+  width: 1200px;
   list-style: none;
 }
 .product_gallery li {
   float: left;
   width: 300px;
+  margin-top: 30px;
   margin-right: 50px;
   border: 1px;
   color: #999;
