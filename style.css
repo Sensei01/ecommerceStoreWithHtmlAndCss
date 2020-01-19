@@ -1,3 +1,71 @@
+html {
+  background-color: #fabe3a;
+}
+
+/*Menu Bar*/
+.menuBar {
+  background-color: white;
+  height: 50px;
+  /* margin-top: -16px; */
+}
+
+.menuBar > ul {
+  list-style-type: none;
+  /* margin: 0; */
+  padding: 0;
+  overflow: hidden;
+}
+
+/* when a menu is selected */
+.active {
+  /* background-color: #ebe5e8; */
+  color: rgb(206, 142, 22);
+}
+
+.menuBar > ul > li {
+  border-right: 1px solid gray;
+  /* IT WAS; display: inline; */
+  float: left;
+  /* list-style-type: none; */
+}
+
+.menuBar > ul > li:last-child {
+  border-right: none;
+}
+.menuBar > ul > li > a {
+  text-decoration: none;
+  padding: 17px;
+  color: black;
+  display: block;
+  /* width: 60px; */
+  /* line-height: 50px; */
+}
+.menuBar > ul > li > a:hover {
+  color: rgb(206, 142, 22);
+  background-color: #eae8e6;
+}
+
+/* Enquiries */
+.img-50-all {
+  max-width: 50px;
+  max-height: 50px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+/*Place your orders */
+.list-inline {
+  list-style-type: none;
+}
+.list-inline > li {
+  display: inline;
+}
+.list-inline > li > a {
+  text-decoration: none;
+  display: inline;
+}
+
+/* Products gallery */
 .product_gallery {
   margin: 0 auto;
   width: 1200px;
